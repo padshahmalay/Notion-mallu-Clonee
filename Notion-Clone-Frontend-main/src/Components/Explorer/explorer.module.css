@@ -1,0 +1,108 @@
+#main {
+  height: 100%;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: auto 5px;
+  position: relative;
+  background-color: #FBFBFA;
+}
+
+#explorer{
+  display: grid;
+  grid-template-rows: 3rem auto 3rem;
+  position: relative;
+}
+
+#explorer_width_toggle {
+  cursor: col-resize;
+}
+
+#explorer_width_toggle:hover {
+  background-color: #bac6c4;
+}
+
+#navbar_wrap {
+  padding-block: .5rem;
+  padding-inline: .5rem;
+  cursor: pointer;
+}
+
+#navbar_wrap:hover {
+  background-color: rgba(55, 53, 47, 0.08);
+}
+
+#navbar {
+  display: grid;
+  grid-template-columns: auto 30px;
+  height: 100%;
+}
+
+.navbar_comps {
+  display: flex;
+  align-items: center;
+  align-self: center;
+  justify-self: center;
+  justify-content: center;
+}
+
+#user_details {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  /* border: 2px solid black; */
+}
+
+#profile_image_wrap {
+  background-color: #004D40;
+  color: white;
+  height: 100%;
+  position: relative;
+}
+
+#profile_image{
+  position: absolute;
+  height: 80%;
+  border-radius: 5px;
+
+}
+
+#profile_name {
+  font-weight: 600;
+  font-size: .9rem;
+}
+
+#explorer_toggle {
+  color: #A3A29E;
+}
+
+#explorer_toggle:hover {
+  background-color: rgba(55, 53, 47, 0.08);
+}
+
+#all_docs{
+  border-block: 1px solid rgb(188, 183, 182);
+  overflow-y: scroll;
+  max-height: calc(100vh - (6rem));
+}
+
+
+
+#add_new_page{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-left: .5rem;
+  cursor: pointer;
+  color: #37352FA6;
+  font-weight: 600;
+}
+
+#add_new_page:hover{
+  background-color: #e4e1e1;
+}
+
+#no_data{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}

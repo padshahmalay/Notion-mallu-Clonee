@@ -1,0 +1,46 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); */
+
+#main {
+  font-family: 'Open Sans', sans-serif;  height: 100vh;
+  width: 100vw;
+  display: flex;
+  user-select: none;
+}
+
+::-moz-selection { /* Code for Firefox */
+  background: rgba(35, 131, 226, 0.28);
+}
+
+::selection {
+  background: rgba(35, 131, 226, 0.28);
+}
+
+
+#editor{
+  width: 100%;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+/* } else if (ElementValue.length !== 0 && ElementValue !== '\u00A0') {
+    //   UpdateBlocks({ IsNewBlock: true, index, value: '\u00A0' });
+    // } else {
+    //   setOpenBlockStyleOptions({ ...OpenBlockStyleOptions, state: !OpenBlockStyleOptions.state });
+    // } */

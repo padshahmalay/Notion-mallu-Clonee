@@ -1,0 +1,168 @@
+.individual_doc_wrap{
+    padding-inline: .5rem;
+    padding-block: .2rem;
+    margin-inline: .3rem;
+    margin-top: .2rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: .9rem;
+    /* border: 2px solid black; */
+  }
+  
+  .individual_doc{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+  }
+
+  #file_link{
+    text-decoration: none;
+    color: #888886;
+  }
+  
+  .individual_doc_wrap:hover{
+    background-color: #e0e0df;
+  }
+  
+  .left_comps{
+    display: flex;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* position: relative; */
+  }
+
+  #emoji_picker{
+    position: absolute;
+    z-index: 1;
+}
+
+#file_name{
+  color: #888886;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+/* #file_name input:focus{
+  outline: none;
+  border: 0px solid black;
+} */
+
+  
+  .right_comps{
+    display: flex;
+  }
+
+  .option_icon_wrap{
+    display: flex;
+    visibility: hidden;
+  }
+
+  #expand_options_wrap{
+    position: absolute;
+  }
+
+  #expand_options{
+    position: absolute;
+    top: 2rem;
+    left: 0px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 3px;
+    width: 15rem;
+    padding: .5rem;
+    z-index: 1;
+  }
+
+  
+  #new_file_dialog_wrap{
+    position: absolute;
+    padding: .3rem;
+    background-color: white;
+    width: 20rem;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    z-index: 1;
+  }
+
+  #new_file_dialog_wrap input[type='text']:focus{
+    outline: none;
+  }
+
+  #new_file_dialog{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #F7F7F5;
+    border-radius: inherit;
+    padding: .2rem;
+    border: 2px solid #E0E0DE;
+    color: black;
+  }
+
+  .expand_options_comps{
+    padding-left: .5rem;
+    padding-block: .2rem;
+    display: flex;
+    align-items: center;
+    gap:.5rem;
+    margin-bottom: .2rem;
+    border-radius: 2px;
+    color: #37352F;
+  }
+
+  .individual_doc_wrap:hover .option_icon_wrap{
+    visibility: visible;
+    display: flex;
+  }
+
+  .overlay_container{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    z-index: 1;
+    opacity:0;
+    cursor: default;
+  }
+
+  .expand_options_comps:hover{
+    background-color: #ece9e9;
+  }
+
+  .edit_file_option{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding-inline: .2rem;
+  }
+  
+  .edit_file_option:hover{
+    background-color: #d5d2d2;
+  }
+
+  #empty_page{
+    font-size: .9rem;
+    color: #A3A29E;
+  }
+
+  #modal{
+    margin: auto;
+    width: 60%;
+    height: 80%;
+  }
+
+  #modal_wrap{
+    height: 100%;
+    overflow-y: scroll;
+    background-color: white;
+  }
+
+  /* #modal_wrap::-webkit-scrollbar{
+    display: none;
+  } */
+
+ 
